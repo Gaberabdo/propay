@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="icon" type="image/x-icon" href="./img/icon/fav.png"/>
+    <title>Documentation</title>
+    <!-- bootstrap 5 -->
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css"/>
+    <!-- font awesome 6 -->
+    <link rel="stylesheet" href="./assets/fontawesome/all.min.css"/>
+    <link rel="stylesheet" href="./assets/fontawesome/fontawesome.min.css"/>
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/style.css"/>
+</head>
+<body class="">
+<div class="dashboard-wrapper">
+    <!-- sidebar -->
+    <div id="sidebar" class="">
+        <div class="sidebar-top">
+            <a class="navbar-brand" href="index.html"> <img src="./img/icon/logo.png" alt=""/></a>
+            <button class="sidebar-toggler d-lg-none" onclick="toggleSideMenu()">
+                <i class="fal fa-times"></i>
+            </button>
+        </div>
+        <ul class="main">
+            <li>
+                <a class="active" href="#introduction"><i class="fa-light fa-grid-2"></i>Introduction</a>
+            </li>
+            <li>
+                <a href="#requirements"><i class="fa-light fa-file-code"></i>Requirements</a>
+            </li>
+            <li>
+                <a href="#installation"><i class="fa-light fa-square-code"></i>Installation</a>
+            </li>
+            <li>
+                <a href="#folderStructure"><i class="fa-light fa-folders"></i>Folder Structure</a>
+            </li>
+            <li>
+                <a href="#screens"><i class="fa-light fa-list-dropdown"></i>Screens</a>
+            </li>
+            <li>
+                <a href="#setupApplication"><i class="fa-light fa-list-timeline"></i>Setup Application</a>
+            </li>
+            <li>
+                <a href="#publishApp"><i class="fa-light fa-file-contract"></i>Publish App</a>
+            </li>
+
+            <li><a href="#support"><i class="fas fa-headphones"></i> SUPPORT</a></li>
+        </ul>
+    </div>
+
+    <!-- content -->
+    <div id="content">
+        <div class="overlay">
+            <!-- main -->
+            <div class="container">
+                <button class="call-side-bar d-lg-none" onclick="toggleSideMenu()">
+                    <i class="fal fa-bars"></i>
+                </button>
+                <div class="main row">
+                    <div class="col-12">
+                        <!-- INTRODUCTION -->
+                        <div id="introduction" class="mt-5">
+                            <h2 class="pt-4">Cross Platform Mobile Application For Gamers Arena</h2>
+                            <p>
+                                Welcome to Gamers Arena, Digital Online Game Store, Game Top Up , Voucher & Gamer ID Selling Platform  Flutter mobile application for both Android and iOS. This app serves as an essential companion to our web application. It’s developed for those people who already have our <a href="https://codecanyon.net/item/gamers-arena-digital-online-game-store-game-top-up-voucher-gamer-id-selling-tools/39238155">Gamers Arena</a> Laravel Application.
+
+                            </p>
+                            <p>If you haven't acquired the web app yet, you can make your purchase by clicking here.</p>
+                            <p>We appreciate your purchase of Gamers Arena. Should you have any inquiries or if there are questions not addressed in this document, please don't hesitate to reach out to us via email. We are committed to responding to your queries promptly. Thank you for choosing Hyip Pro; we value your business.</p>
+
+                            <h6>Support Email: <span
+                                        class="base-color">bugfinder.me@gmail.com</span></h6>
+                        </div>
+                        <!-- REQUIREMENTS -->
+                        <div id="requirements" class="mt-5 pt-5">
+                            <div class="heading">
+                                <h3>Requirements</h3>
+                            </div>
+                            <p>Download and install Any one from these IDE(Android studio, Vs Code) on your
+                                computer.</p>
+                            <ul>
+                                <li>&rarr; Source Android Studio: <a class="text-primary" href="">https://developer.android.com/studio</a>
+                                </li>
+                                <li>&rarr; Source VS Code: <a class="text-primary" href="">https://code.visualstudio.com/download</a>
+                                </li>
+                            </ul>
+                            <p>Setup Flutter and Dart SDK in your computer if you want to modify the source code</p>
+                            <ul>
+                                <li>&rarr; Source: <a class="text-primary"
+                                               href="">https://docs.flutter.dev/get-started/install</a></li>
+                            </ul>
+                            <p>Must installed Flutter and dart plugin on your IDE</p>
+                        </div>
+                        <!-- INSTALLATION -->
+                        <div id="installation" class="mt-5 pt-5">
+                            <div class="heading">
+                                <h3>Installation</h3>
+                            </div>
+                            <p>
+                                After downloading file from codecanyon you will get a zip file. Extracting the zip file
+                                you will get <span
+                                    class="color font-500"> <i class="fa-sharp fa-regular fa-folder-open"></i> Documentation</span>
+                                Folder
+                                and
+                                <span class="font-500"><img
+                                        src="img/zip.png" alt="..." height="16"> project.zip</span> included in there:
+                            </p>
+
+                            <ul>
+                                <li>&rarr; Unzip the source code and open it in your IDE.</li>
+                                <li>&rarr; On your IDE find for <code>pubspecs.yaml</code> file then click on pub get on top right
+                                    side your IDE.
+                                </li>
+                                <li>&rarr; Please make sure your flutter and dart SDK updated.</li>
+                                <li>&rarr; Open an emulator or connect a real device and then click on Run Button for
+                                    compile the project.
+                                </li>
+                            </ul>
+                            <div class="screenshot">
+                                <img class="img-fluid rounded-3" src="./img/screenshots/installation.png" alt=""/>
+                            </div>
+                           
+                        </div>
+            
+                        
+                    </div>
+
+                            
+                    <div id="folderStructure" class="mt-5 pt-5">
+                        <div class="heading">
+                            <h3>Flutter Packages</h3>
+                        </div>
+                        <div class="screenshot">
+                            <img class="img-fluid rounded-3" src="./img/screenshots/packages.png" alt=""/>
+                        </div>
+                        </div>
+
+                        <!-- FOLDER STRUCTURE -->
+                        <div id="folderStructure" class="mt-5 pt-5">
+                            <div class="heading">
+                                <h3>  Folder Structure</h3>
+                                <p>All you need to follow the lib(Library) Folder for any logical and UI changes in this
+                                    project.</p>
+                            </div>
+                            <ul>
+                                <li>&rarr;   <i class="fa-sharp fa-regular fa-folder-open color"></i> <b>Controller Folder >></b> All of the logic implemented here</li>
+                                <li>&rarr;  <i class="fa-sharp fa-regular fa-folder-open color"></i> <b>Data Folder >></b> API integration and error handle</li>
+                                <li>&rarr;  <i class="fa-sharp fa-regular fa-folder-open color"></i> <b>Routes Folder >></b> All app routes declared here.</li>
+                                <li>&rarr;  <i class="fa-sharp fa-regular fa-folder-open color"></i> <b>Config Folder >></b> App text styles and colors are declared here.</li>
+                                <li>&rarr;  <i class="fa-sharp fa-regular fa-folder-open color"></i> <b>Notification_service Folder >></b> Handle both in app notifications and
+                                    push notifications.
+                                </li>
+                                <li>&rarr;  <i class="fa-sharp fa-regular fa-folder-open color"></i> <b>Theme Folder >></b> Controll the theme Dark and light mode.</li>
+                                <li>&rarr;  <i class="fa-sharp fa-regular fa-folder-open color"></i> <b>Utils Folder >></b> App constants, local storage and helper class are definded here.</li>
+                                <li>&rarr;  <i class="fa-sharp fa-regular fa-folder-open color"></i> <b>View Folder >></b> All of the screen UI and component here.</li>
+                            </ul>
+                            <div class="screenshot">
+                                <img class="img-fluid rounded-3" src="./img/screenshots/project_structure.png" alt=""/>
+                            </div>
+                        </div>
+                        <!-- SCREENS -->
+                        <div id="screens" class="mt-5 pt-5">
+                            <div class="heading">
+                                <h3>Screens</h3>
+                            </div>
+                            <ol>
+                                <li>Splash screen</li>
+                                <li>Onboarding screen</li>
+                                <li>Create new password screen</li>
+                                <li>Forgot password screen</li>
+                                <li>Login Screen</li>
+                                <li>SignUp Screen</li>
+                                <li>Buy id screen</li>
+                                <li>Buy id details screen</li>
+                                <li>Buy id payment screen</li>
+                                <li>Chatting screen</li>
+                                <li>Home screen</li>
+                                <li>Topup order screen</li>
+                                <li>Voucher order screen</li>
+                                <li>Gift card order screen</li>
+                                <li>Id purchase screen</li>
+                                <li>My offer Screen</li>
+                                <li>My offer details screen</li>
+                                <li>Create post screen</li>
+                                <li>Sales post screen</li>
+                                <li>Sales post details screen</li>
+                                <li>Notification Screen</li>
+                                <li>Add fund screen</li>
+                                <li>Withdraw screen</li>
+                                <li>Manual payment screen</li>
+                                <li>Card Payment Screen</li>
+                                <li>Payment Log screen</li>
+                                <li>Withdraw Log screen</li>
+                                <li>Transaction screen</li>
+                                <li>Profile Settings screen</li>
+                                <li>Change password screen</li>
+                                <li>Edit Profile screen</li>
+                                <li>Shop Category screen</li>
+                                <li>Shop Category details screen</li>
+                                <li>Payment success scene</li>
+                                <li>Create Support Ticket screen</li>
+                                <li>Support Ticket List screen</li>
+                                <li>Support Ticket View screen</li>
+                                <li>Identity Verification screen</li>
+                                <li>Address Verification screen</li>
+                                <li>TwoFa screen</li>
+                                <li>Verification Check screen</li>
+                             
+                            
+                               
+                            </ol>
+                        </div>
+                        <!-- SETUP APPLICATION -->
+                        <div id="setupApplication" class="mt-5 pt-5">
+                            <div class="heading">
+                                <h3>Setup Application</h3>
+                            </div>
+                            <div class="mb-5">
+                               
+                                <div class="screenshot">
+                                    <img class="img-fluid rounded-3" src="./img/screenshots/base_url.png" alt=""/>
+                                </div>
+                            </div>
+
+                            <div class="mb-5">
+                                <h5>Change App Primary color: Open lib/config/app_colors.dart</h5>
+                                <div class="screenshot">
+                                    <img class="img-fluid rounded-3" src="./img/screenshots/app_colors.png" alt=""/>
+                                </div>
+                            </div>
+
+
+                            <div>
+                                <h5>
+                                    For change the app name please follow:
+                                    <a class="text-primary" href=" https://pub.dev/packages/flutter_launcher_icons">https://pub.dev/packages/rename_app</a>
+                                </h5>
+                            </div>
+                            <div>
+                                <h5>
+                                    For change the app icon please follow:
+                                    <a href=" https://pub.dev/packages/flutter_launcher_icons" class="text-primary">
+                                        https://pub.dev/packages/flutter_launcher_icons</a>
+                                </h5>
+                            </div>
+                            <div>
+                                <h5>
+                                    For change the app package name please follow:
+                                    <a href="https://pub.dev/packages/change_app_package_name" class="text-primary">https://pub.dev/packages/change_app_package_name</a>
+                                </h5>
+                            </div>
+                        </div>
+                        <!-- PUBLISH APP -->
+                        <div id="publishApp" class="mt-5 pt-5">
+                            <div class="heading">
+                                <h3>Publish APP</h3>
+                            </div>
+                            <h5>1. Android</h5>
+                            <p>Follow the guidelines publish the app to Play Store.</p>
+                            <p><b>PlayStore:</b> <a class="text-primary" href="">https://flutter.dev/docs/deployment/android</a>
+                            </p>
+                            <h5>2. IOS</h5>
+                            <p>Follow the guidelines publish the app to AppStore.</p>
+                            <p><b>AppStore:</b> <a class="text-primary"
+                                                   href="">https://flutter.dev/docs/deployment/ios</a></p>
+                        </div>
+
+
+                        <div id="support" class="mt-5 pt-5">
+                            <div class="heading">
+                                <h3>Support</h3>
+                            </div>
+                            <p>
+                                We are always happy to hear from you. Please feel free to contact us for any kind of
+                                customization, support, query and suggestion. We will respond as soon as possible.
+                                Please
+                                email us from our profile so we can verify you as our client and help you to solve any
+                                issue.
+                            </p>
+
+
+                            <p class="color  font-500"> We are looking for your precious review. your review will be
+                                inspiration for us
+                                <br>
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </p>
+
+                            <div class="support">
+                                <h6 class="font-500">Support Email: <span
+                                        class="base-color">bugfinder.me@gmail.com</span>
+                                </h6>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- bootstrap -->
+<script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
+<!-- jquery cdn -->
+<script src="./assets/jquery/jquery-3.6.0.min.js"></script>
+<!-- custom script -->
+<script src="./js/script.js"></script>
+</body>
+</html>
